@@ -1,0 +1,8 @@
+@include flex;
+
+
+// Extraeria los estilos de ese tal section3 y los trae al section4
+.section4{
+    @extend .section3;
+    color: red;
+}

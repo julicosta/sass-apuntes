@@ -1,0 +1,27 @@
+// lo primero que se tienen que llamar son las parcials que estan en la carpeta de utilities
+
+//se lo llama asi:
+
+@import "./utilities/variables";
+@import "./utilities/map";
+@import "./utilities/mixins";
+@import "./utilities/functions";
+
+//Por segundo se lo llama a base
+
+@import "./base/reset";
+@import "./base/tipografia";
+
+//por tercero se lo llama a los fragmentos de layout
+
+@import "./layout/header";
+@import "./layout/mainindex";
+
+//por cuarto se lo llama a components
+
+@import "./components/bootstrap-nav";
+@import "./components/cards";
+
+//por quinto se lo llama al media query
+
+@import "./layout/media/media320";

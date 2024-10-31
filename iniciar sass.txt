@@ -1,0 +1,30 @@
+iniciar sass
+
+npm init
+- enter a todo (o poner valores deseados)
+. se crea un package.json
+
+---la 1 o la 2---
+{
+1- npm instal -D node-sass nodemon
+
+2- npm install -g sass
+}
+
+repetir esto cada vez que abro mi proyecto:
+sass --watch ./scss/style.scss ./css/style.css
+(rutas de mi sass y de mi css)
+
+se crea el .map en el css
+
+caso de emergencia descargar esto:
+https://prepros.io/downloads
+
+otra opción descargar extension de visual (no recomendable)
+https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
+
+
+si quiero agregar alguna pseudoclase o etiqueta, al tener un padre se indica el nuevo estilo con & al inicio
+
+declarar una variable en sass para guardarle un valor
+&colorPrincipal: valor;
